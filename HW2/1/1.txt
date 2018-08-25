@@ -1,0 +1,6 @@
+I = imread('HW2_einstein_orig.tif');
+J = histeq(I);
+imhist(I);
+imshow(I);
+imhist(J);
+imshow(J);

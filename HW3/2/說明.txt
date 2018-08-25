@@ -1,0 +1,6 @@
+1.先將圖片讀進來
+2.使用matlab內建函數fft2()和fftshift() 對圖片做DFT和將DC值移到中央 , 存到fimg變數
+3.展示圖片時用abs(), 取得圖片的magitude
+4.在imshow第二個參數用[],將圖片將值scale到0~255之間
+5.用angle()取得圖片的phase angle,並在imshow的第二個參數使用[]將值scale到0~255之間
+
